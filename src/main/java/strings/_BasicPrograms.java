@@ -1,8 +1,7 @@
-package dsa.strings;
 
 import java.util.Scanner;
 
-public class _BasicString {
+public class _BasicPrograms {
 
     public static void main(String[] args) {
 

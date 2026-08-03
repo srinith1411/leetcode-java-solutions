@@ -1,6 +1,6 @@
 package dsa.arrays;
 
-public class _BasicTraversal {
+public class _Basic_Traversal {
 
     public static void main(String[] args) {
 
