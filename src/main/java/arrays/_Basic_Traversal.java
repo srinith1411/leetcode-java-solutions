@@ -1,4 +1,3 @@
-package dsa.arrays;
 
 public class _Basic_Traversal {
 
