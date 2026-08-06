@@ -10,7 +10,7 @@ public class _1470_Simulation_ShuffleTheArray {
 
         int k = 0;
 
-        while (i < n && j < a.length) {
+        while (i < n ) {
 
             arr[k++] = a[i++];
 
