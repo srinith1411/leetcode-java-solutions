@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class _1389_CreateTargetArrayInTheGivenOrder {
+public class _1389_Simulation_CreateTargetArrayInTheGivenOrder {
 
 	public static int[] createTargetArray(int[] nums, int[] index) {
 
