@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-class Solution {
+class LC2697_TwoPointers_LexicographicallySmallestPalindrome {
 
-    public String makeSmallestPalindrome(String s) {
+    public  static String makeSmallestPalindrome(String s) {
 
         char[] arr = s.toCharArray();
 
@@ -34,9 +34,7 @@ class Solution {
         System.out.print("Enter string: ");
         String s = sc.nextLine();
 
-        Solution obj = new Solution();
-
-        String result = obj.makeSmallestPalindrome(s);
+        String result = LC2697_TwoPointers_LexicographicallySmallestPalindrome .makeSmallestPalindrome(s);
 
         System.out.println("Lexicographically smallest palindrome: " + result);
 
