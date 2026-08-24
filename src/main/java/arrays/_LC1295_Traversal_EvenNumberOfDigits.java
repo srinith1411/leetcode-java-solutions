@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _1295_Traversal_EvenNumberOfDigits {
+public class _LC1295_Traversal_EvenNumberOfDigits {
 
 	public static boolean check(int n) {
 

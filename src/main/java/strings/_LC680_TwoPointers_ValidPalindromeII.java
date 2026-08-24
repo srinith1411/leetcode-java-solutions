@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _680_TwoPointers_ValidPalindromeII {
+public class _LC680_TwoPointers_ValidPalindromeII {
 
 	public static boolean isPal(String s, int l, int r) {
 

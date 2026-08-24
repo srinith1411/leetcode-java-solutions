@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _1768_TwoPointers_MergeStringsAlternately {
+public class _LC1768_TwoPointers_MergeStringsAlternately {
 
 	public static void main(String[] args) {
 

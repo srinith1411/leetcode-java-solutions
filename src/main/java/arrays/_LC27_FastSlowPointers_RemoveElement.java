@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LC27_FastSlowPointers_RemoveElement {
+public class _LC27_FastSlowPointers_RemoveElement {
 
     public static int removeElement(int[] nums, int val) {
 

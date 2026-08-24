@@ -1,7 +1,7 @@
 import java.util.*;
 
-class Solution {
-    public int removeDuplicates(int[] nums) {
+class _LC26_TwoPointer_RemoveDuplicatesFromSortedArray {
+    public static  int removeDuplicates(int[] nums) {
 
         int slow = 0;
 
@@ -31,9 +31,7 @@ class Solution {
             nums[i] = sc.nextInt();
         }
 
-        Solution obj = new Solution();
-
-        int k = obj.removeDuplicates(nums);
+        int k = removeDuplicates(nums);
 
         System.out.println("Number of unique elements: " + k);
 

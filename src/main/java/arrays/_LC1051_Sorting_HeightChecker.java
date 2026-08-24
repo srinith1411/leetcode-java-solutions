@@ -1,6 +1,6 @@
 import java.util.*;
 
-class  LC1051_Sorting_HeightChecker {
+class  _LC1051_Sorting_HeightChecker {
 
     public static int heightChecker(int[] h) {
 

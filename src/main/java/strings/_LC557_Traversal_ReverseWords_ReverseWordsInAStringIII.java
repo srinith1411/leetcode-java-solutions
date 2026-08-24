@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _557_Traversal_ReverseWords_ReverseWordsInAStringIII {
+public class _LC557_Traversal_ReverseWords_ReverseWordsInAStringIII {
 
     public static String reverseWords(String s) {
 

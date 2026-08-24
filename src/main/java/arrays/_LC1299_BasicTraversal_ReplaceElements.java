@@ -1,6 +1,6 @@
 import java.util.*;
 
-class LC1299_BasicTraversal_ReplaceElements {
+class _LC1299_BasicTraversal_ReplaceElements {
 
     public static int[] replaceElements(int[] a) {
 

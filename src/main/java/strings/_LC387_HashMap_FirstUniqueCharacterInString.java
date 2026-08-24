@@ -1,7 +1,8 @@
 import java.util.*;
 
-class Solution {
-    public int firstUniqChar(String s) {
+class _LC387_HashMap_FirstUniqueCharacterInString
+ {
+    public static int firstUniqChar(String s) {
 
         HashMap<Character, Integer> h = new HashMap<>();
 
@@ -33,9 +34,7 @@ class Solution {
         System.out.print("Enter string: ");
         String s = sc.nextLine();
 
-        Solution obj = new Solution();
-
-        int result = obj.firstUniqChar(s);
+        int result = firstUniqChar(s);
 
         System.out.println("Index of first unique character: " + result);
 

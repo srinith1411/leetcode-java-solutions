@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _125_TwoPointer_ValidPalindrome {
+public class _LC125_TwoPointer_ValidPalindrome {
 
     public static boolean isPalindrome(String s) {
 

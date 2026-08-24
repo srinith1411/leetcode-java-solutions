@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _1470_Simulation_ShuffleTheArray {
+public class _LC1470_Simulation_ShuffleTheArray {
 
     public static int[] shuffle(int[] a, int n) {
 

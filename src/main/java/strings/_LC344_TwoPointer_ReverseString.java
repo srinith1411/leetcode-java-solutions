@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _344_TwoPointer_ReverseString {
+public class _LC344_TwoPointer_ReverseString {
     
 
      public static void reverseString(char[] s) {

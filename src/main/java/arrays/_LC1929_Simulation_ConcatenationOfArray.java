@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class _1929_Simulation_ConcatenationOfArray {
+public class _LC1929_Simulation_ConcatenationOfArray {
 
     public static void main(String[] args) {
 

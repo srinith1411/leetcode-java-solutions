@@ -2,7 +2,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class _1480_PrefixSum_RunningSumOf1DArray {
+public class _LC1480_PrefixSum_RunningSumOf1DArray {
 
 
      public static int[] runningSum(int[] nums) {

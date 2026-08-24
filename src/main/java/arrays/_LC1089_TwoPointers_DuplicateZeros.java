@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-class Solution {
+class _LC1089_TwoPointers_DuplicateZeros {
 
-    public void duplicateZeros(int[] arr) {
+    public static void duplicateZeros(int[] arr) {
 
         int n = arr.length;
         int zeros = 0;
@@ -58,9 +58,8 @@ class Solution {
             arr[i] = sc.nextInt();
         }
 
-        Solution obj = new Solution();
-        obj.duplicateZeros(arr);
-
+        duplicateZeros(arr);
+        
         System.out.println("Array after duplicating zeros:");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");

@@ -1,4 +1,4 @@
-public class _2000_Simulation_ReversePrefixOfWord {
+public class _LC2000_Simulation_ReversePrefixOfWord {
 
     public static void reverse(char c[], int l, int r) {
 

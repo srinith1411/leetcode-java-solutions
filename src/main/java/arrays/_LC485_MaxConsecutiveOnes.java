@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _485_MaxConsecutiveOnes {
+public class _LC485_MaxConsecutiveOnes {
 
     public static int findMaxConsecutiveOnes(int[] nums) {
 

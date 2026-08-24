@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class _392_TwoPointer_IsSubsequence {
+public class _LC392_TwoPointer_IsSubsequence {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);

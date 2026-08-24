@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LC1572_DiagonalTraversal_DiagonalSum {
+public class _LC1572_DiagonalTraversal_DiagonalSum {
 
     public static int diagonalSum(int[][] mat) {
 

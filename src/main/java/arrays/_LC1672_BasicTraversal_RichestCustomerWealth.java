@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _1672_BasicTraversal_RichestCustomerWealth {
+public class _LC1672_BasicTraversal_RichestCustomerWealth {
 
     public static int maximumWealth(int[][] accounts) {
 

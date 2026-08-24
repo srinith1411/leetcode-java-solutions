@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class _1313_Simulation_DecompressRunLengthEncodedList {
+public class _LC1313_Simulation_DecompressRunLengthEncodedList {
 
     public static int[] decompressRLElist(int[] nums) {
 
