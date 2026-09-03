@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day29_LC806_Simulation_NumberOfLinesToWriteString {
+public class _LC806_Simulation_NumberOfLinesToWriteString {
 
     public static int[] numberOfLines(int[] widths, String s) {
 

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class LC14_BasicTraversal_LongestCommonPrefix {
+class _LC14_BasicTraversal_LongestCommonPrefix {
 
     public static String longestCommonPrefix(String[] w) {
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LC917_TwoPointer_ReverseOnlyLetters {
+public class _LC917_TwoPointer_ReverseOnlyLetters {
 
     public static String reverseOnlyLetters(String s) {
 

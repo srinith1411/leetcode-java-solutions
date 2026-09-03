@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day29_LC2540_HashSet_FindCommonElementsBetweenTwoArrays {
+public class _LC2540_HashSet_FindCommonElementsBetweenTwoArrays {
 
     public static int getCommon(int[] nums1, int[] nums2) {
 

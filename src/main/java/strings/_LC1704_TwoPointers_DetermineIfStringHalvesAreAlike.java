@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LC1704_TwoPointers_DetermineIfStringHalvesAreAlike {
+public class _LC1704_TwoPointers_DetermineIfStringHalvesAreAlike {
 
     public static boolean halvesAreAlike(String s) {
 

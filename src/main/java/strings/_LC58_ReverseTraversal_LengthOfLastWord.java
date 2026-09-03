@@ -1,6 +1,6 @@
 import java.util.*;
 
-class LC58_ReverseTraversal_LengthOfLastWord {
+class _LC58_ReverseTraversal_LengthOfLastWord {
 
     public static int lengthOfLastWord(String s) {
 
