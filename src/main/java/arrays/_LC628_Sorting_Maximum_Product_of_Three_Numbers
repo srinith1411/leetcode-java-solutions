@@ -1,0 +1,44 @@
+package dsa.arrays;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class _LC628_Sorting_Maximum_Product_of_Three_Numbers{
+
+    public static int maximumProduct(int[] nums) {
+
+        Arrays.sort(nums);
+
+        int n = nums.length;
+
+        // Three largest numbers
+        int p1 = nums[n - 1] * nums[n - 2] * nums[n - 3];
+
+        // Two smallest numbers and the largest number
+        int p2 = nums[0] * nums[1] * nums[n - 1];
+
+        return Math.max(p1, p2);
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter array size: ");
+        int n = sc.nextInt();
+
+        int[] nums = new int[n];
+
+        System.out.println("Enter array elements:");
+
+        for (int i = 0; i < n; i++) {
+            nums[i] = sc.nextInt();
+        }
+
+        int result = maximumProduct(nums);
+
+        System.out.println("Maximum product of three numbers: " + result);
+
+        sc.close();
+    }
+}

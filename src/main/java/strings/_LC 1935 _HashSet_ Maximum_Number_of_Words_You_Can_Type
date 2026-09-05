@@ -1,0 +1,54 @@
+package dsa.strings;
+
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class _LC 1935 _HashSet_ Maximum_Number_of_Words_You_Can_Type {
+
+    public static int canBeTypedWords(String s, String bl) {
+
+        int c = 0;
+        HashSet<Character> h = new HashSet<>();
+
+        for (char ch : bl.toCharArray()) {
+            if (ch != ' ')
+                h.add(ch);
+        }
+
+        String w[] = s.split(" ");
+
+        for (int i = 0; i < w.length; i++) {
+
+            int cc = 0;
+
+            for (int j = 0; j < w[i].length(); j++) {
+
+                if (!h.contains(w[i].charAt(j))) {
+                    cc++;
+                }
+            }
+
+            if (cc == w[i].length())
+                c++;
+        }
+
+        return c;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter sentence: ");
+        String s = sc.nextLine();
+
+        System.out.print("Enter broken letters: ");
+        String bl = sc.nextLine();
+
+        int result = canBeTypedWords(s, bl);
+
+        System.out.println("Number of words that can be typed: " + result);
+
+        sc.close();
+    }
+}
