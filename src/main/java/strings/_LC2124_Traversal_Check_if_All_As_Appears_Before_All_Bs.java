@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class _LC2124_Traversal_CheckString {
+public class _LC2124_Traversal_Check_if_All_As_Appears_Before_All_Bs {
 
     public static boolean checkString(String s) {
 
